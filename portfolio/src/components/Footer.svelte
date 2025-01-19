@@ -14,6 +14,7 @@ yash_kemkar<sup><span class="text-xs scale-75 pl-0.5">
     <a class="text-violet-400" target="_blank" href="#/">
     yash_kemkar<sup><span class="text-xs scale-75 pl-0.5">
         <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
+        
     </span></sup></a>
     </p>
 </div>
