@@ -144,7 +144,7 @@
         <div
             class="flex flex-col overflow x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
-            <table class="bg-white text-slate-700 rounded text-center">
+            <table class="bg-slate-950 text-white rounded text-center">
                 <thead class="border-b corder-solid border-slate-200">
                     <tr class="">
                         <th/>
@@ -156,31 +156,31 @@
                 </thead>
                 <tbody>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solidborder-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Dedication</td>
-                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td class="border-solid border-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Dedication</td>
+                        <td><i class="fa-solid fa-check text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-300"></i></td>
                         <td><i class="fa-solid fa-check text-violet-700"></i></td>
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solidborder-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Critical Thinking</td>
-                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td class="border-solid border-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Critical Thinking</td>
+                        <td><i class="fa-solid fa-xmark text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-300"></i></td>
                         <td><i class="fa-solid fa-check text-violet-700"></i></td>
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solidborder-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Interpersonal Skills</td>
-                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td class="border-solid border-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Interpersonal Skills</td>
+                        <td><i class="fa-solid fa-check text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-300"></i></td>
                         <td><i class="fa-solid fa-check text-violet-700"></i></td>
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solidborder-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Programming Ability</td>
-                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td class="border-solid border-white pl-4 pr-8 py-4 font-semibold whitespace-nowrap">Programming Ability</td>
+                        <td><i class="fa-solid fa-xmark text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-300"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-300"></i></td>
                         <td><i class="fa-solid fa-check text-violet-700"></i></td>
                     </tr>
                 </tbody>
@@ -189,49 +189,7 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto poppins">I'd be the perfect addition to your team. So why not invest?</p>
+        <p class="mx-auto poppins pb-8 sm:pb-12">I'd be the perfect addition to your team. So why not invest?</p>
     </section>
-    <section id="experience" class="py-20 lg:py-32 flex flex-col gap-24">
-        <div class="flex flex-col gap-2 text-center">
-            <h6 class="text-lg sm:text-xl md:text-2xl">
-                I'm not entirely new to the workforce.
-            </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:5xl">
-                Have a look at my <span class="poppins text-violet-400">professional & educational</span> background.
-            </h3>
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
-                <p>
-                    The E-commerce store is a merchandising store created with <strong
-                        class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!
-                    </strong> Commerce.js is a product CMS and Stripe is used for
-                    all transaction handling.
-                </p>
-            </Step>
-            <Step step={steps[1]}>
-                <p>
-                    Ultimate To-dos is a Full Stack <strong
-                        class="text-violet-400"
-                        >Next.js, Node.js + Express.js & Firebase!</strong
-                    > CRUD application that allows a user to login, manage a tidy
-                    and efficacious todo list, and persist this information across
-                    devices.
-                </p>
-            </Step>
-            <Step step={steps[2]}>
-                <p>
-                    The Pokedex is a <strong class="text-violet-400"
-                        >React & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>
-                    that consumes and caches the
-                    <strong class="text-violet-400">Pokemon API</strong> to display
-                    all Pokemon information. Gotta catch em all!
-                </p>
-            </Step>
-        </div>
-    </section>
+   
 </main>
