@@ -4,7 +4,7 @@
     let steps = [
         { name: "E-commerce Store", icon: "fa-solid fa-cart-shopping" },
         { name: "Ultimate Todos", icon: "fa-solid fa-list-check" },
-        { name: "Pokedex", icon: "fa-solid fa-diagram-project" },
+        { name: "Pokédex", icon: "fa-solid fa-diagram-project" },
     ];
 
     let benefits = [
@@ -93,14 +93,14 @@
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The Pokedex is a <strong class="text-violet-400"
+                    The Pokédex is a <strong class="text-violet-400"
                         >React & TailwindCSS</strong
                     >
                     web application, hosted on
                     <strong class="text-violet-400">Netlify</strong>
                     that consumes and caches the
-                    <strong class="text-violet-400">Pokemon API</strong> to display
-                    all Pokemon information. Gotta catch em all!
+                    <strong class="text-violet-400">Pokémon API</strong> to display
+                    all Pokémon information. Gotta catch em all!
                 </p>
             </Step>
         </div>
